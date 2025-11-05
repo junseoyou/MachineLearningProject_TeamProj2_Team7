@@ -14,7 +14,7 @@ This is supplemented by calibration (`IsotonicRegression`) for each candidate be
 
 -   `/notebooks/01_local_training.ipynb`: (Local) Run this notebook on a local GPU machine to train all candidate models and save the model artifacts (LoRA adapters, `.pkl` files, scalers).
 -   `/notebooks/02_kaggle_inference.ipynb`: (Kaggle) Upload this notebook to Kaggle. It loads the pre-trained artifacts from the local step, performs inference on `test.csv`, runs calibration, and creates the final ensemble submission.
--   `/notebooks/**03_validation**.ipynb`: This notebook serves as our complete development log, documenting all intermediate experiments, model validation, and the iterative "trial and error" process that informed our final model architecture.
+-   `/notebooks/03_validation.ipynb`: This notebook serves as our complete development log, documenting all intermediate experiments, model validation, and the iterative "trial and error" process that informed our final model architecture.
 -   `/Assignment2_7_20.._Sooho_Moon.pdf`: The final PDF report.
 -   `/requirements.txt`: Python dependencies required to run the code.
 
@@ -26,7 +26,7 @@ This project uses a "Local Train / Kaggle Infer" strategy to satisfy the "no-int
 
 1.  **Clone Repository & Install:**
     ```bash
-    git clone [Your_Repo_URL]
+    git clone https://github.com/junseoyou/MachineLearningProject_TeamProj2_Team7.git
     cd Team7_MLP_Project2
     pip install -r requirements.txt
     ```
