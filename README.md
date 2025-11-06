@@ -1,4 +1,4 @@
-**# CS 53744 - Machine Learning Project 2
+# CS 53744 - Machine Learning Project 2
 ## Team 7: Predicting Human Preferences for LLM Response Enhancement
 
 This repository contains the code for the "LLM Classification Finetuning" Kaggle competition.
